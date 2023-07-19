@@ -6,7 +6,7 @@ const nunito = Nunito_Sans({subsets: ['latin']})
 export const metadata: Metadata = {
   title: 'Nori Sushi Fátima',
   description:
-    'Um empresário brasileiro chegando em Portugal, para mudar o conceito do sushi, com muita novidades',
+    'O Melhor sushi 🍣. Funcionamos de terça a domingo a 300 metros do santuário de Fátima',
 }
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
