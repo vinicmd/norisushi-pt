@@ -6,7 +6,7 @@ const nunito = Nunito_Sans({subsets: ['latin']})
 export const metadata: Metadata = {
   title: 'Nori Sushi Fátima',
   description:
-    'O Melhor sushi 🍣. Funcionamos de terça a domingo a 300 metros do santuário de Fátima',
+    'O Melhor sushi 🍣 de Fátima. Funcionamos de terça a domingo a 300 metros do Santuário de Fátima',
 }
 
 export default function RootLayout({children}: {children: React.ReactNode}) {

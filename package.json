@@ -1,7 +1,18 @@
 {
   "name": "nori-sushi-pt",
-  "version": "0.1.0",
+  "description": "Infrastructure made for Nori Sushi.",
+  "version": "0.9.0",
   "private": true,
+  "license": "MIT",
+  "author": "Vinicius Duarte",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinicmd/nori-sushi-pt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vinicmd/nori-sushi-pt/issues"
+  },
+  "homepage": "https://norisushi.pt",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,10 +20,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "1.4.0",
     "next": "13.4.10",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "styled-components": "^6.0.4"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@types/node": "20.4.2",
