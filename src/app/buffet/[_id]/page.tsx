@@ -16,7 +16,7 @@ export default function Page({params}: {params: {_id: string}}) {
   useEffect(() => {
     async function generateStaticParams() {
       try {
-        const order = await api(`/orders/${params._id}`)
+        const order = await api.get(`/orders/${params._id}`)
         setOrder(order.data[0])
       } catch (error: unknown) {
         console.log(error)
