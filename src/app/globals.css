@@ -1,0 +1,25 @@
+:root {
+  --color-background: '#191919';
+  --color-white: '#f2f2f2';
+  --color-green: '#219653';
+  --color-red: '#fe0000';
+  --color-gray: '#252525';
+  --color-lightGray: '#4b4b4b';
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
