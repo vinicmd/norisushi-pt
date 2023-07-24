@@ -4,7 +4,7 @@ import {useEffect, useState} from 'react'
 import {useRouter} from 'next/navigation'
 
 import {api} from '@/services/api'
-import '@/app/buffet/[_id]/styles.module.css'
+import styles from '@/app/buffet/[_id]/styles.module.css'
 
 export default function Page({params}: {params: {_id: string}}) {
   const [isLoading, setIsLoading] = useState(true)
@@ -46,5 +46,5 @@ export default function Page({params}: {params: {_id: string}}) {
     }
     generateStaticParams()
   }, [params._id, router])
-  return !isLoading && <div>My Post: {order._id}</div>
+  return !isLoading && <div className={styles.buffet}>My Post: {order._id}</div>
 }
